@@ -3,6 +3,12 @@
 SELECT COUNT(DISTINCT country_name) AS total_distinct_countries 
 FROM international_debt;
 ```
+RESULT:
+| total_distinct_countries |
+|--------------------------|
+| 124                      |
+
+
 2. What are the distinct debt indicators? the output column should be aliased as distinct_debt_indicators and the outputs should be ordered by it.
 3. What is the total amount of debt owed by all the countries present in the table, in millions? The output should be single column aliased with the following name: total_debt
 ```
